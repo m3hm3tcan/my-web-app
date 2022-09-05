@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -35,37 +36,35 @@ const Header = () => {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-col p-4 mt-4 rounded-lg border md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0">
               <li>
-                <a
-                  href="/"
-                  className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:hover:text-gray-700 md:p-0 dark:text-white"
-                  aria-current="page"
-                >
-                  Home
-                </a>
+                <Link href="/">
+                  <a
+                    className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:hover:text-gray-700 md:p-0 dark:text-white"
+                    aria-current="page"
+                  >
+                    Home
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/about"
-                  className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:hover:text-gray-700 md:p-0 dark:text-white"
-                >
-                  Time Line
-                </a>
+                <Link href="/about">
+                  <a className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:hover:text-gray-700 md:p-0 dark:text-white">
+                    Time Line
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:hover:text-gray-700 md:p-0 dark:text-white"
-                >
-                  Projects
-                </a>
+                <Link href="/">
+                  <a className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:hover:text-gray-700 md:p-0 dark:text-white">
+                    Projects
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700  md:hover:text-gray-700 md:p-0 dark:text-whitet"
-                >
-                  Contact
-                </a>
+                <Link href="/">
+                  <a className="block py-2 pr-4 pl-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700  md:hover:text-gray-700 md:p-0 dark:text-whitet">
+                    Contact
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

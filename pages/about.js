@@ -3,6 +3,11 @@ import { useEffect, useState } from "react";
 
 export default function About() {
   return (
+    <>
+    <Head>
+        <title>MJ - Time Line</title>
+      </Head>
+
     <div className="md:w-6/12 shadow-lg rounded-lg my-24 relative bg-neutral-900  drop-shadow-lg  shadow-green-700 pt-12">
       <div className="container  mx-auto w-full h-full min-w-0">
         <div className="relative wrap overflow-hidden p-10 h-full">
@@ -129,5 +134,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }
