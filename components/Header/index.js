@@ -6,11 +6,13 @@ const Header = () => {
     <>
       <nav className="bg-black border-gray-200 px-2 sm:px-4 py-2 dark:bg-gray-900 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="https://flowbite.com/" className="flex items-center">
-            <h1 className="lucky-text self-center font-semibold whitespace-nowrap text-green-800 text-3xl ">
-              <span>Developer</span> <span>Life</span>
-            </h1>
-          </a>
+          <Link href="/">
+            <a className="flex items-center">
+              <h1 className="lucky-text self-center font-semibold whitespace-nowrap text-green-800 text-3xl ">
+                <span>Developer</span> <span>Life</span>
+              </h1>
+            </a>
+          </Link>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
