@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex justify-center md:justify-end -mt-16 mr-16">
             <img
               className="w-24 h-24 object-cover rounded-full border-2 border-green-700 "
-              src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+              src=""
             />
           </div>
           <div>
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center cursor-pointer pb-4">
-              <div className="py-2 mx-4 md:py-6 md:px-12 grid grid-cols-3 md:grid-cols-7 gap-4 justify-center">
+              <div className="py-2 mx-4 md:py-6 md:px-12 grid grid-cols-3 md:grid-cols-5 gap-4 justify-center">
                 <div className="flex justify-center">
                   <FaUserFriends className="bg-transparent w-12 h-12 text-gray-500 hover:text-slate-200"/>
                 </div>
